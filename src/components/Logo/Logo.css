@@ -1,0 +1,7 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgb(244, 113, 113), rgb(130, 130, 130));
+  border-radius: 5%;
+}

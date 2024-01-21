@@ -5,13 +5,10 @@ import "./Logo.css";
 
 const Logo = () => {
   return (
-    <div className="ma4 mt0">
+    <div className="ma4 mt0 center">
       <Tilt
-        style={{
-          height: "150px",
-          width: "150px",
-          backgroundColor: "darkgreen",
-        }}
+        className="logo shadow-4"
+        style={{ height: "150px", width: "150px" }}
       >
         <div>
           <img src={faceLogo} alt="face logo" />
